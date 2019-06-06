@@ -39,8 +39,17 @@ img {
   height: auto;
 }
 
+.btn {
+  .color-button(@eastern-blue);
+}
+
 .container {
-  max-width: 800px;
+  max-width: @max-page-width;
   width: 100%;
   margin: 0 auto;
+}
+
+.separate-top {
+  width: 100%;
+  border-bottom: @sect-border;
 }
