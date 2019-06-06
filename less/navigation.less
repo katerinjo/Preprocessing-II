@@ -3,16 +3,26 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 90px;
+    @media @mobile {
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+    }
     a {
         text-decoration: none;
         color: black;
+        padding: 10px;
     }
     ul {
         display: flex;
         justify-content: space-between;
-        flex-basis: 360px;
+        flex-basis: 340px;
+        @media @mobile {
+            flex-basis: 0;
+        }
         li {
-            font-size: 1.5em;
+            font-size: 1.8em;
+            padding: 0;
         }
     }
 }

@@ -187,17 +187,31 @@ nav {
   align-items: center;
   height: 90px;
 }
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+}
 nav a {
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
-  flex-basis: 360px;
+  flex-basis: 340px;
+}
+@media (max-width: 500px) {
+  nav ul {
+    flex-basis: 0;
+  }
 }
 nav ul li {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  padding: 0;
 }
 .footer {
   width: 100%;
