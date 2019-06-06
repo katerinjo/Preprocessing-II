@@ -163,6 +163,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+.btn {
+  background: #148ea1;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
 .container {
   max-width: 800px;
   width: 100%;
